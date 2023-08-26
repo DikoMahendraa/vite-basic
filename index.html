@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    @import url('./css/styles.css');
+    @import url('./sass/styles.sass');
+  </style>
+</head>
+<body>
+
+  <h1>hello world</h1>
+  <h2>Support CSS-Preprocessor</h2>
+
+  <img src="./assets/sample.jpeg" height="100px" width="100%" alt="sample-images">
+
+  <script type="module">
+    import {sayHello} from './javascript/first.js'
+    import {funcTypescript} from './typescript/first.ts'
+    import * as person from './person/data.json'
+
+    sayHello("testingg")
+    funcTypescript("TS")
+    console.log(person.telegram)
+    console.log(person.instagram)
+  </script>
+</body>
+</html>
